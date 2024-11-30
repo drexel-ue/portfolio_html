@@ -1,5 +1,9 @@
 @import url('https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTFJbWNFOXV5OUJMd1JDd1BDTjM4U2t3UzlTZ3xBQ3Jtc0trOXdlYkl1eVM0cF9hZnVwenpXV19fQlRTSnF3TXFxekVUbjZqRTlGOXdqLU9lTHVlTm5HY3NZUVVHSHk5bXMwbHZzSTBsS296QXM3d3FYOC1CR1VuaXczbWRLVk5HODRNUjBVcDhyajhSN3J3UXF3Zw&q=https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DPoppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600%26display%3Dswap%27%29%3B&v=-u3vE84Wo_U');
 
+:root {
+    --electric-violet: #8f00ff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,4 +40,16 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.logo {
+    font-size: 3rem;
+    color: var(--electric-violet);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
