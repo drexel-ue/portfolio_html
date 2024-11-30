@@ -99,4 +99,9 @@ nav a.active {
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid var(--electric-violet);
     }
+
+    section {
+        min-height: 100vh;
+        padding: 5rem 9% 5rem;
+    }
 }
