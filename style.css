@@ -99,9 +99,51 @@ nav a.active {
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid var(--electric-violet);
     }
+}
 
-    section {
-        min-height: 100vh;
-        padding: 5rem 9% 5rem;
-    }
+section {
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+}
+
+.home .home-content h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+span {
+    color: var(--electric-violet);
+}
+
+.home-content h3 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home-img {
+    border-radius: 50%;
+}
+
+.home-img img {
+    position: relative;
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px solid var(--electric-violet);
+    cursor: pointer;
+    transition: 0.2 linear;
+}
+
+.home-img img:hover {
+    font-size: 1.8rem;
+    font-weight: 500;
 }
