@@ -190,3 +190,59 @@ span {
     color: black;
     box-shadow: 0 0 25px var(--electric-violet);
 }
+
+.typing-text {
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.typing-text span {
+    position: relative;
+}
+
+.typing-text span:before {
+    content: "Software Engineer";
+    color: var(--electric-violet);
+    animation: words 20s infinite;
+}
+
+.typing-text span::after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid black;
+    right: -8;
+    animation: cursor 0.8s infinite
+}
+
+@keyframes cursor {
+    to {
+        border-left: 3px solid var(--electric-violet);
+    }
+}
+
+@keyframes words {
+
+    0%,
+    20% {
+        content: "Software Engineer";
+    }
+
+    21%,
+    40% {
+        content: "Full Stack Developer";
+    }
+
+    61%,
+    80% {
+        content: "Backend Developer";
+    }
+
+    81%,
+    100% {
+        content: "Flutter Developer";
+    }
+}
