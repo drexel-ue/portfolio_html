@@ -1,4 +1,4 @@
-@import url('https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTFJbWNFOXV5OUJMd1JDd1BDTjM4U2t3UzlTZ3xBQ3Jtc0trOXdlYkl1eVM0cF9hZnVwenpXV19fQlRTSnF3TXFxekVUbjZqRTlGOXdqLU9lTHVlTm5HY3NZUVVHSHk5bXMwbHZzSTBsS296QXM3d3FYOC1CR1VuaXczbWRLVk5HODRNUjBVcDhyajhSN3J3UXF3Zw&q=https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DPoppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600%26display%3Dswap%27%29%3B&v=-u3vE84Wo_U');
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B');
 
 :root {
     --electric-violet: #8f00ff;
@@ -11,7 +11,7 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: 'Poppings', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 html {
