@@ -169,3 +169,24 @@ span {
     background-color: var(--electric-violet);
     box-shadow: 0 0 25px var(--electric-violet);
 }
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: var(--electric-violet);
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid var(--electric-violet);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale3d(1.03);
+    background-color: var(--electric-violet);
+    color: black;
+    box-shadow: 0 0 25px var(--electric-violet);
+}
